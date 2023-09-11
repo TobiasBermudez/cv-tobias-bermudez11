@@ -87,7 +87,7 @@ header.abajo ul li a{
 
 .hola{
   position: absolute;
-  top: 150px;
+  top: 220px;
   left: 900px;
   transform: translate(-50%, -50%);
   color: white;
@@ -96,7 +96,7 @@ header.abajo ul li a{
 }
 .puesto{  
   position: absolute;
-  top: 290px;
+  top: 350px;
   left: 900px;
   transform: translate(-50%, -50%);
   color: white;
@@ -107,7 +107,7 @@ header.abajo ul li a{
   margin-left: 540px;
   color: white;
   display: inline-block;
-  margin-top: 350px;
+  margin-top: 400px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
@@ -257,8 +257,8 @@ header.abajo ul li a{
   background-color: white;
   border-radius: 10px;
   width: 1000px;
-  height: 300px;
-  margin: 10px 110px ;
+  height: 350px;
+  margin: 10px 120px ;
   padding: 10px;
 }
 .whirlpool-contenedor{
@@ -333,7 +333,7 @@ hr {
   justify-content: center;
   align-items: center;
   width: 98.7vw;
-  height: 200px;
+  height: 300px;
 }
 .footer-content h2{
   font-size: xx-large;
@@ -344,6 +344,12 @@ hr {
   font-size: large;
   font-family: helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: 30px;
+
+}
+.footer-content p{
+  font-size: large;
+  font-family: helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 35px;
 
 }
 
