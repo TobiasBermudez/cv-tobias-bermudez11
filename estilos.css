@@ -272,16 +272,11 @@ header.abajo ul li a{
  border-radius: 10px;
 }
 hr {
-  width: 1000px;
-  height: 5px;
+  width: 1089px;
+  height: 1px;
   background-color: red;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-width: 2px;
-  border-color: white;
-  }
+
+}
 .formulario{
   display: flex;
   flex-direction: column;
