@@ -70,7 +70,7 @@ header ul li a{
   position: relative;
   display: inline-block;
   text-align: center;
-
+  
 
 }
 header.abajo .logo,
@@ -275,6 +275,7 @@ hr {
   width: 1089px;
   height: 1px;
   background-color: red;
+  border: none;
 
 }
 .formulario{
