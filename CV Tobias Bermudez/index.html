@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Tobias Bermudez</title>
+   
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#SobreMi">Sobre Mí</a></li>
+                <li><a href="#Experiencia">Experiencia</a></li>
+                <li><a href="#Aptitudes">Aptitudes</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <div id="Inicio"></div>
+    <div class="zona1">
+        <h1 class="hola">Tobías Bermúdez</h1>
+        <h3 class="puesto">Pasante de E-commerce</h3>
+        <div>
+            <a class="butom" href="./Mi C.V. Tobías Bermúdez Grasso_compressed.pdf" download="CV">
+                Descargar mi CV
+            </a>
+        </div>
+    </div>
+    <div id="SobreMi"></div>
+    <section class="SobreMi2">
+        <h1 class="me">Sobre Mí</h1>
+        <div id="contenedortexto">
+            <p class="textomio">Soy una persona competitiva que busca mejorar profesionalmente y poder aceptar nuevos desafíos.Como objetivo personal, es crecer en todos mis aspectos y ser una persona que genere confianza, poseo una buena actitud al trabajo y soy partidario del trabajo en equipo.</p>
+        </div>
+    </section>
+    <div id="Experiencia">
+        <hr>
+    </div>
+    <div class="whirlpool-contenedor"> 
+        <a href="https://www.whirlpool.com.ar/"><img src="./W1.jpeg"></a>
+    </div>
+    <section class="Experiencia2">
+        <h1 class="me">Experiencia</h1>
+        <div class="xp">
+            <ul>
+                <li class="pasante">Pasante de E-commerce</li>
+                <li class="whirlpool">Whirlpol Corporation</li>
+                <li class="tiempo">2022- Presente</li>
+            </ul>
+        </div>
+        <div class="descripcion">
+            <ul>
+                <li>Correcciones generales y relevamiento del sio web</li>
+                <li>Diseño, programación de Pop Ups</li>
+                <li>Reporte y analisis de KPIs</li>
+                <li>Control y seguimiento a desarrolladores web</li>
+                <li>Mejoras y optimización UX/UI</li>
+                <li>Carga de promociones al sitio (Cupones, Banners, etc)</li>
+
+            </ul>
+        </div>
+    </section>
+    <div id="Aptitudes">
+        <hr>
+    </div>
+    <section class="Aptitudes2">
+        <h1 class="me">Aptitudes</h1>
+        <div class="v-line"></div>
+        <div class="abc">
+            <div>
+                <h3 class="skillsycertificaciones">Hard Skills</h3>
+                <div class="primeraseca-contenedor">
+                    <p class="primeraseca">VTEX</p>
+                    <p class="primeraseca">UX/UI</p>
+                    <p class="primeraseca">HTML/CSS</p>
+                    <p class="primeraseca">Python</p>
+                    <p class="primeraseca">Photoshop</p>
+                    <p class="primeraseca">Excel</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="skillsycertificaciones2">Certificaciones</h3>
+                <ul class="certifi">
+                    <li>Certifiación en Google Ads y Display 2022</li>
+                    <li>Certifiación en Python (CISCO) basico/intermadio 2023</li>
+                    <li>Certifiación de Diseño UX/UI  (en curso)</li>
+                    <li>Diseño y Desarrollo Web (Materia en curso)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div id="Contacto"></div>
+    <section class="Contacto2">
+        <div><h1 class="meC">Contacto</h1></div>
+        <div class="contacto-container">
+            <div class="contacto-form">
+                <h4 class="h4ff">Enviame un mensaje ...</h4>
+               <form action="https://formsubmit.co/toba.grasso@gmail.com" method="POST" class="formulario">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+                <button class="btn-send">Enviar Mensaje</button>
+                </form> 
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <hr>
+        <div class="footer-content">
+            <h2>Tobías Bermúdez</h2>
+            <h5>Pasante de E-commerce</h5>
+        </div>
+        <div class="social">
+            <i class="logosocial"><a href="https://www.linkedin.com/in/tob%C3%ADas-berm%C3%BAdez-814718224/"><img src="./linkedin.png" alt="Linkedin"></a></i>
+            <i class="logosocial"><a href="https://www.instagram.com/toba.bermudez/"><img src="./instagram.png" alt="Instagram"></a></i>
+            <i class="logosocial"><a href="https://twitter.com/bermudez_tobias"><img src="./twitter.png" alt="Twitter"></a></i>
+        </div>
+        
+    </footer>
+    
+    
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header")
+            header.classList.toggle("abajo",window.scrollY>0);
+        })
+    </script>
+</body>
+</html>
