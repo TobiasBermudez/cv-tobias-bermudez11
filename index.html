@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos-mobile.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Tobias Bermudez</title>
@@ -11,19 +12,19 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="titulos">
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#SobreMi">Sobre Mí</a></li>
-                <li><a href="#Experiencia">Experiencia</a></li>
-                <li><a href="#Aptitudes">Aptitudes</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="contenedor-ham">
+                <ul class="titulos">
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#SobreMi">Sobre Mí</a></li>
+                    <li><a href="#Experiencia">Experiencia</a></li>
+                    <li><a href="#Aptitudes">Aptitudes</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
     </header>   
     <div id="Inicio"></div>
     <div class="zona1">
-        <h1 class="hola">Tobías Bermúdez</h1>
+        <h1 class="hola">Tobías <br>Bermúdez</h1>
         <h3 class="puesto">Pasante de E-commerce</h3>
         <div>
             <a class="butom" href="./Mi C.V. Tobías Bermúdez Grasso_compressed.pdf" download="CV">
@@ -35,19 +36,47 @@
     <section class="SobreMi2">
         <h1 class="me">Sobre Mí</h1>
         <div id="contenedortexto">
-            <p class="textomio">Me presento, me llamo Tobías Bermúdez y me gustaría compartir un poco sobre quién soy y mis pasiones en la vida. <br>
-                <br>Desde siempre, me he considerado una persona proactiva. Me encanta enfrentar nuevos desafíos y tomar la iniciativa para alcanzar mis metas. Uno de mis principales objetivos es desarrollarme profesionalmente en el área del E-commerce y todo lo relacionado con la creación y gestión de sitios web. Para mí, el mundo digital es un campo fascinante y en constante evolución que me motiva a aprender y crecer constantemente. <br>
-                <br>Mi amor por la moda y las tendencias es innegable. Considero que la moda es una forma de expresión personal y una manera de transmitir nuestra identidad al mundo. Siempre estoy atento a las últimas tendencias y disfruto explorando diferentes estilos para encontrar mi propio camino en el mundo de la moda. <br>
-                <br>El deporte es otra de mis grandes pasiones, y el baloncesto ocupa un lugar especial en mi corazón. Disfruto no solo viendo y siguiendo este deporte, sino también jugándolo. El baloncesto me brinda la oportunidad de liberar energía, trabajar en equipo y superar desafíos. Es una fuente constante de inspiración y motivación en mi vida. <br>
-                <br>Una de mis cualidades más destacadas es mi empatía y compañerismo. Siempre estoy dispuesto a apoyar a mis amigos, familiares y colegas en cualquier situación. La empatía es una habilidad que valoro profundamente, ya que creo que es fundamental para construir relaciones sólidas y contribuir positivamente a la comunidad en general.
-                
-                
-                
-                
-                
-                
-                
-                </p>
+            <div class="principal-texto">Me presento, me llamo Tobías Bermúdez y me gustaría compartir un poco sobre quién soy y mis pasiones en la vida. </div>
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                <label for="btn-acordeon1">
+                    Objetivos
+                    <hr class="linea-data">
+                </label>
+                <div class="contenido-acordeon">
+                    <p class="texto-acordeon">Desde siempre, me he considerado una persona proactiva. Me encanta enfrentar nuevos desafíos y tomar la iniciativa para alcanzar mis metas. Uno de mis principales objetivos es desarrollarme profesionalmente en el área del E-commerce y todo lo relacionado con la creación y gestión de sitios web. Para mí, el mundo digital es un campo fascinante y en constante evolución que me motiva a aprender y crecer constantemente.</p>
+                </div>
+            </div>
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                <label for="btn-acordeon2">
+                    Gustos
+                    <hr class="linea-data">
+                </label>
+                <div class="contenido-acordeon">
+                    <p class="texto-acordeon">Mi amor por la moda y las tendencias es innegable. Considero que la moda es una forma de expresión personal y una manera de transmitir nuestra identidad al mundo. Siempre estoy atento a las últimas tendencias y disfruto explorando diferentes estilos para encontrar mi propio camino en el mundo de la moda.</p>
+                </div>
+            </div>
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                <label for="btn-acordeon3">
+                    Deporte
+                    <hr class="linea-data">
+                </label>
+                <div class="contenido-acordeon">
+                    <p class="texto-acordeon">El deporte es otra de mis grandes pasiones, y el baloncesto ocupa un lugar especial en mi corazón. Disfruto no solo viendo y siguiendo este deporte, sino también jugándolo. El baloncesto me brinda la oportunidad de liberar energía, trabajar en equipo y superar desafíos. Es una fuente constante de inspiración y motivación en mi vida.</p>
+                </div>
+            </div>
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                <label for="btn-acordeon4">
+                    Cualidades
+                    <hr class="linea-data">
+                </label>
+                <div class="contenido-acordeon">
+                    <p class="texto-acordeon">Una de mis cualidades más destacadas es mi empatía y compañerismo. Siempre estoy dispuesto a apoyar a mis amigos, familiares y colegas en cualquier situación. La empatía es una habilidad que valoro profundamente, ya que creo que es fundamental para construir relaciones sólidas y contribuir positivamente a la comunidad en general.</p>
+                </div>
+            </div>
         </div>
     </section>
     <div id="Experiencia">
@@ -56,9 +85,6 @@
     <section class="Experiencia2">
         <h1 class="me">Experiencia</h1>
         <div class="carrusel-contenedor">
-            <div class="whirlpool-contenedor">
-                <a href="https://www.whirlpool.com.ar/"><img src="./W1.jpeg"></a>
-            </div>
             <div>
                 <div class="xp">
                     <ul>
@@ -78,6 +104,9 @@
         
                     </ul>
                 </div>
+            </div>
+            <div class="whirlpool-contenedor">
+                <a href="https://www.whirlpool.com.ar/"><img src="./W1.jpeg"></a>
             </div>
         </div>
     </section>
@@ -99,6 +128,7 @@
                     <p class="primeraseca">Excel</p>
                 </div>
             </div>
+            <hr class="separador-skills">
             <div>
                 <h3 class="skillsycertificaciones2">Certificaciones</h3>
                 <ul class="certifi">
@@ -118,7 +148,7 @@
         <div class="contacto-container">
             <div class="contacto-form">
                 <h4 class="h4ff">Enviame un mensaje ...</h4>
-               <form action="https://formsubmit.co/toba.grasso@gmail.com" method="POST" class="formulario">
+                <form action="https://formsubmit.co/toba.grasso@gmail.com" method="POST" class="formulario">
                 <input type="text" name="Nombre" placeholder="Nombre">
                 <input type="email" name="Email" placeholder="Email">
                 <textarea name="Texto" placeholder="Escribe tu mensaje aquí..."></textarea>
@@ -130,7 +160,7 @@
     <footer class="footer">
         <hr>
         <div class="footer-content">
-            <h2>Tobías Bermúdez</h2>
+            <h1>Tobías Bermúdez</h1>
             <h5>Pasante de E-commerce</h5>
             <p>toba.grasso@gmail.com</p>
         </div>

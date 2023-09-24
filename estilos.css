@@ -12,7 +12,9 @@ title{
   font-size: x-large;
   letter-spacing: 2px;
 }
-
+#abrir-manu, #menu-cerrar{
+  display: none;
+}
 a{
     text-decoration: none;
     color: white;
@@ -48,8 +50,8 @@ header ul{
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 60px;
-    margin-right: 70px;
+    gap: 100px;
+    margin-right: 80px;
 }
 header ul li{
   list-style: none;
@@ -197,7 +199,9 @@ header.abajo ul li a{
   position: absolute;
   margin-top: 50px;
  }
-
+.separador-skills{
+  display: none;
+}
 .primeraseca-contenedor{
   display: flex;
   justify-content: space-between;
