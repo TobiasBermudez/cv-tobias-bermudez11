@@ -121,6 +121,7 @@ header.abajo ul li a{
   border-radius: 60px;
   text-decoration-line: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
 }
 .butom:hover{
   background-color: red ;
