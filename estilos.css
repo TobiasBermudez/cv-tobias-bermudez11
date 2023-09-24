@@ -138,7 +138,7 @@ header.abajo ul li a{
 }
 .carrusel-contenedor{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -265,16 +265,16 @@ header.abajo ul li a{
   font-family: helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#contenedortexto{
+.principal-texto{
   background-color: white;
   border-radius: 10px;
   width: 80%;
-  height: 65%;
+  height: 20px;
   margin-left: 120px;
   padding: 10px;
 }
 .whirlpool-contenedor{
-  float: right;
+  float: left;
 }
 .whirlpool-contenedor img{
  width: 300px;
@@ -367,5 +367,49 @@ hr {
   display: flex;
   justify-content: space-evenly;
   width: 300px; 
+}
+.acordeon label{
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 300ms ease;
+
+}
+.linea-data{
+  background-color: white;
+}
+.titulo-acordeon{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-family: helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.texto-acordeon{
+  display: flex;
+  justify-content: center;
+  font-family: helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.acordeon .contenido-acordeon{
+  padding: 0px;
+  margin: 0px 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+.btn-acordeon:checked ~ .contenido-acordeon{
+  max-height: 600px;
+  padding: 15px 0px;
+
+}
+.btn-acordeon{
+  display: none;
+}
+label{
+  color: white;
+}
+.texto-acordeon{
+  color: white;
 }
 }
